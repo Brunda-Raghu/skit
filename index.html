@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Proctoring System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f6f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            background: #1f2933;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        /* Navigation */
+        nav {
+            background: #111827;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        /* Sections */
+        section {
+            padding: 40px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Features */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .feature-box {
+            background: #e0f2fe;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background: #1d4ed8;
+        }
+
+        /* Footer */
+        footer {
+            background: #1f2933;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Smart Proctoring System</h1>
+    <p>AI-Based Online Examination Monitoring</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#workflow">Workflow</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About the Project</h2>
+        <p>
+            The <b>Smart Proctoring System</b> is an AI-based solution designed to
+            monitor students during online examinations. It uses computer vision
+            and machine learning techniques to detect suspicious activities such as
+            multiple faces, absence from camera, and abnormal behavior.
+        </p>
+        <a href="#" class="btn">Start Demo</a>
+    </div>
+</section>
+
+<section id="features">
+    <h2>Key Features</h2>
+    <div class="features">
+        <div class="feature-box">
+            <h3>Face Detection</h3>
+            <p>Detects presence or absence of student face in real time.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Multiple Face Alert</h3>
+            <p>Identifies more than one face during examination.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Head Movement Tracking</h3>
+            <p>Monitors abnormal head movements using AI.</p>
+        </div>
+
+        <div class="feature-box">
+            <h3>Violation Logging</h3>
+            <p>Automatically records suspicious activities.</p>
+        </div>
+    </div>
+</section>
+
+<section id="workflow">
+    <div class="card">
+        <h2>System Workflow</h2>
+        <ol>
+            <li>Student logs into the examination portal</li>
+            <li>Webcam starts automatically</li>
+            <li>AI monitors student behavior</li>
+            <li>Violations are detected and logged</li>
+            <li>Admin reviews examination report</li>
+        </ol>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="card">
+        <h2>Project Details</h2>
+        <p><b>Domain:</b> Artificial Intelligence & Web Development</p>
+        <p><b>Technologies:</b> Python, Flask, OpenCV, HTML, CSS</p>
+        <p><b>Developed By:</b> Engineering Student</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Smart Proctoring System | Final Year Project</p>
+</footer>
+
+</body>
+</html>
